@@ -13,7 +13,7 @@ March 25, 2023
 
 <p align="right">To</p>
 
-<p align="right">Chinatown Community Development Center (https://www.chinatowncdc.org/)</p>
+<p align="right">[Chinatown Community Development Center](https://www.chinatowncdc.org/)</p>
 
 <p align="right">(Main Office) 615 Grant Avenue, San Francisco CA 94108</p>
 
@@ -85,7 +85,7 @@ Below is the lookup table that documents the feature type, element type and styl
 | Station | Text  / Fill | Color: Star dust(#9e9e9e) |
 
 # How to deploy this map?
-The client can easily deploy the map style by downloading the json file here: https://github.com/xxxidragons/Zhou_portfolio/blob/bd80a5d27252d9e681681b0f692ddd78a4f80461/CCDC_mapstyle.json 
+The client can easily deploy the map style by downloading the json file here: [https://github.com/xxxidragons/Zhou_portfolio/blob/bd80a5d27252d9e681681b0f692ddd78a4f80461/CCDC_mapstyle.json](https://github.com/xxxidragons/Zhou_portfolio/blob/bd80a5d27252d9e681681b0f692ddd78a4f80461/CCDC_mapstyle.json)
 1. In the Google Cloud Console, go to the Map Styles page.
 
 2. Click Create style.
@@ -99,5 +99,5 @@ If your JSON is valid, you see a preview of the pasted style, and the blue SAVE 
 5. Select SAVE.
 
 The style is automatically published, and you are taken to your new style's main page.
-See more details at: https://developers.google.com/maps/documentation/cloud-customization/map-styles#create-new-style 
+See more details at: [https://developers.google.com/maps/documentation/cloud-customization/map-styles#create-new-style] (https://developers.google.com/maps/documentation/cloud-customization/map-styles#create-new-style )
 
