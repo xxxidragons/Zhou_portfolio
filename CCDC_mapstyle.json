@@ -16,14 +16,6 @@
     ]
   },
   {
-    "elementType": "labels.icon",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
     "elementType": "labels.text.fill",
     "stylers": [
       {
@@ -50,6 +42,15 @@
   },
   {
     "featureType": "administrative",
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative",
     "elementType": "labels.text.fill",
     "stylers": [
       {
@@ -71,19 +72,19 @@
     "elementType": "geometry.stroke",
     "stylers": [
       {
-        "color": "#ffffff"
+        "lightness": -25
       },
       {
-        "lightness": -25
+        "visibility": "off"
       }
     ]
   },
   {
-    "featureType": "administrative.land_parcel",
-    "elementType": "labels.text.fill",
+    "featureType": "landscape",
+    "elementType": "labels.icon",
     "stylers": [
       {
-        "color": "#bdbdbd"
+        "visibility": "off"
       }
     ]
   },
@@ -92,7 +93,7 @@
     "elementType": "geometry.fill",
     "stylers": [
       {
-        "color": "#d9d9d9"
+        "color": "#e8e8e8"
       }
     ]
   },
@@ -101,7 +102,13 @@
     "elementType": "geometry.stroke",
     "stylers": [
       {
-        "color": "#ffffff"
+        "color": "#999999"
+      },
+      {
+        "lightness": 10
+      },
+      {
+        "weight": 4
       }
     ]
   },
@@ -169,11 +176,11 @@
     ]
   },
   {
-    "featureType": "road.arterial",
-    "elementType": "labels.text.fill",
+    "featureType": "road",
+    "elementType": "labels.icon",
     "stylers": [
       {
-        "color": "#757575"
+        "visibility": "off"
       }
     ]
   },
@@ -192,24 +199,6 @@
     "stylers": [
       {
         "color": "#616161"
-      }
-    ]
-  },
-  {
-    "featureType": "road.local",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#9e9e9e"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.line",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#adadad"
       }
     ]
   },
