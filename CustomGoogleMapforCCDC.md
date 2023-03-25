@@ -57,6 +57,7 @@ Zooming into the neighborhood scale, the street patterns become visible as well 
 Going down to the street level, property outlines are visible which are important for CCDC to develop housing/voluntary/youth training programs.
 
 Below is the lookup table that documents the feature type, element type and stylers for all relevant features which help navigate where to make changes. I go beyond the template and add more colors for contrast and gradient in transition between scales.
+
 | Feature type | Element type | Stylers |
 | --- | --- | --- |
 | All | Labels / Text fill | Color: Japonica(#616161) |
