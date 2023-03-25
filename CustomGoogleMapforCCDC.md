@@ -13,7 +13,7 @@ March 25, 2023
 
 <p align="right">To</p>
 
-<p align="right">[Chinatown Community Development Center](https://www.chinatowncdc.org/)</p>
+<p align="right">Chinatown Community Development Center(https://www.chinatowncdc.org/)</p>
 
 <p align="right">(Main Office) 615 Grant Avenue, San Francisco CA 94108</p>
 
@@ -99,5 +99,5 @@ If your JSON is valid, you see a preview of the pasted style, and the blue SAVE 
 5. Select SAVE.
 
 The style is automatically published, and you are taken to your new style's main page.
-See more details at: [https://developers.google.com/maps/documentation/cloud-customization/map-styles#create-new-style] (https://developers.google.com/maps/documentation/cloud-customization/map-styles#create-new-style )
+See more details at: [https://developers.google.com/maps/documentation/cloud-customization/map-styles#create-new-style](https://developers.google.com/maps/documentation/cloud-customization/map-styles#create-new-style)
 
