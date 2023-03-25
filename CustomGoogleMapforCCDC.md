@@ -28,7 +28,7 @@ Chinatown Community Development Center (https://www.chinatowncdc.org/)
   
 # Timeline*: 
 
-| Task | Time | Cost | Actual time
+| Task | Time | Cost | Actual time |
 | --- | --- | --- | --- |
 | Generate a custom palette | 0.5 | 50 | 0.5 |
 | Build custom map using the Google Map Styling Wizard | 2 | 200 | 3 |
