@@ -56,33 +56,33 @@ Zooming into the neighborhood scale, the street patterns become visible as well 
 ![scale3](https://user-images.githubusercontent.com/79752672/227696516-d802217b-aefd-49da-b233-944ac750be2d.png)
 Going down to the street level, property outlines are visible which are important for CCDC to develop housing/voluntary/youth training programs.
 
-Below is the lookup table that documents the feature type, element type and stylers for all relevant features which help navigate where to make changes. I go beyond the template and add more colors for contrast and gradient in transition between scales.
+Below is the lookup table that documents the feature type, element type and stylers for all relevant features which help navigate where to make changes. I go beyond the template and add more colors for contrast and gradient in transition between scales:
 
 | Feature type | Element type | Stylers |
 | --- | --- | --- |
-| All | Labels / Text fill | Color: Japonica(#616161) |
-| All | Labels / Text outline | Color: White(#F5F5F5) |
-| All | Geometry  / Stroke | Color: White(#F5F5F5) |
-| Administrative | Labels / Text fill | Color: Japonica(#B73A24) |
-| Administrative | Labels / Text outline | Color: White(#F5F5F5) |
+| All | Labels / Text fill | Color: Storm Dust(#616161) |
+| All | Labels / Text outline | Color: White Smoke(#F5F5F5) |
+| All | Geometry  / Stroke | Color: White Smoke(#F5F5F5) |
+| Administrative | Labels / Text fill | Color: Dark Pastel Red(#B73A24) |
+| Administrative | Labels / Text outline | Color: White Smoke(#F5F5F5) |
 | Administrative | Icon | Visibility: Hidden |
 | Land parcel | Geometry  / Stroke | Visibility: Hidden |
 | Landscape | Icon | Visibility: Hidden |
-| Human-made | Geometry  / fill | Color: Japonica(#E8E8E8) |
-| Human-made | Geometry  / Stroke | Color: Japonica(#999999) |
-| Points of interest | Geometry  / Fill | Color: Kabul(#EBCCAD) |
-| Points of interest | Labels / Text fill | Color: Whitw(#757575) |
-| Attraction | Geometry  / Fill | Color: Japonica(#E2A26E) |
-| Park | Geometry  / Fill | Color: Kabul(#E5E5E5) |
-| Park | Labels / Text fill | Color: Whitw(#9E9E9E) |
-| School | Geometry  / Fill | Color: Japonica(#E2A26E) |
-| Road | Geometry  / Fill | Color: White(#ffffff1) |
+| Human-made | Geometry  / fill | Color: Green white(#E8E8E8) |
+| Human-made | Geometry  / Stroke | Color: Lemon grass(#999999) |
+| Points of interest | Geometry  / Fill | Color: Dessert sand(#EBCCAD) |
+| Points of interest | Labels / Text fill | Color: Boulder(#757575) |
+| Attraction | Geometry  / Fill | Color: Brown sugar(#E2A26E) |
+| Park | Geometry  / Fill | Color: Mercury(#E5E5E5) |
+| Park | Labels / Text fill | Color: Star dust(#9E9E9E) |
+| School | Geometry  / Fill | Color: Brown sugar(#E2A26E) |
+| Road | Geometry  / Fill | Color: White(#ffffff) |
 | Road | Icon | Visibility: Hidden |
-| Highway | Geometry  / Fill | Color: Japonica(#DADADA) |
-| Highway | Labels / Text fill  | Color: Kabul(#616161) |
-| Station | Geometry  / Fill | Color: Whitw(#B8B8B8) |
-| Water | Geometry  / Fill | Color: Whitw(#c9c9c9) |
-| Station | Text  / Fill | Color: Whitw(#9e9e9e) |
+| Highway | Geometry  / Fill | Color: Light grey(#DADADA) |
+| Highway | Labels / Text fill  | Color: Storm Dust(#616161) |
+| Station | Geometry  / Fill | Color: Pink swan(#B8B8B8) |
+| Water | Geometry  / Fill | Color: Silver(#c9c9c9) |
+| Station | Text  / Fill | Color: Star dust(#9e9e9e) |
 
 # How to deploy this map?
 The client can easily deploy the map style by downloading the json file here: https://github.com/xxxidragons/Zhou_portfolio/blob/bd80a5d27252d9e681681b0f692ddd78a4f80461/CCDC_mapstyle.json 
