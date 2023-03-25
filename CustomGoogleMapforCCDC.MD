@@ -25,9 +25,9 @@ Chinatown Community Development Center (https://www.chinatowncdc.org/)
 <p align="right">
 (415) 984-1450
 </p>
-
   
 # Timeline*: 
+
 | Task | Time | Cost | Actual time
 | --- | --- | --- | --- |
 | Generate a custom palette | 0.5 | 50 | 0.5 |
