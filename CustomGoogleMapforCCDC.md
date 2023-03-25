@@ -2,8 +2,6 @@
 
 Customized San Francisco Basemap for Chinatown Community Development Center
 
-<p align="left">
-  
 From
 
 Yi Zhou, 
@@ -13,18 +11,13 @@ School of Architecture, Carnegie Mellon University
 
 March 25, 2023
 
-<p align="right">
-To
-</p>
-<p align="right">
-Chinatown Community Development Center (https://www.chinatowncdc.org/)
-</p>
-<p align="right">
-(Main Office) 615 Grant Avenue, San Francisco CA 94108
-</p>
-<p align="right">
-(415) 984-1450
-</p>
+<p align="right">To</p>
+
+<p align="right">Chinatown Community Development Center (https://www.chinatowncdc.org/)</p>
+
+<p align="right">(Main Office) 615 Grant Avenue, San Francisco CA 94108</p>
+
+<p align="right">(415) 984-1450</p>
   
 # Timeline*: 
 
