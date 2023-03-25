@@ -1,31 +1,46 @@
-# Bid document for customozed google map for non-profit organization
+# Bid proposal
 
-Client: Chinatown Community Development Center (https://www.chinatowncdc.org/)
+Customized San Francisco Basemap for Chinatown Community Development Center
 
-Location: (Main Office) 615 Grant Avenue, San Francisco CA 94108
+<p align="left">
+  
+From
+<p align="left">
+Yi Zhou, 
+School of Architecture, Carnegie Mellon University
+<p align="left">
+4919 Frew St, Pittsburgh, PA 15213
+<p align="left">
+March 25, 2023
 
-Contact: (415) 984-1450
-
-Start date: 03/25/2023
-
-Estimate*: 
+<p align="right">
+To
+<p align="right">
+Chinatown Community Development Center (https://www.chinatowncdc.org/)
+<p align="right">
+(Main Office) 615 Grant Avenue, San Francisco CA 94108
+<p align="right">
+(415) 984-1450
+</p>
+  
+# Timeline*: 
 | Task | Time | Cost | Actual time
 | --- | --- | --- | --- |
-| Generate a custom palette | 0.5 | 0.5 | 1 |
-| Build custom map using the Google Map Styling Wizard | 3 | --- | 3 |
-| Copy the JSON file | 1 | --- | 0.5 |
-| Lookup table | 1 | --- | 1.5 |
-| Screenshoot of the map| 0.5 | --- |
-| Design intentions | 2 | --- |
-| HTML page deployent | 1 | --- |
+| Generate a custom palette | 0.5 | 50 | 0.5 |
+| Build custom map using the Google Map Styling Wizard | 2 | 200 | 3 |
+| Copy the JSON file | 1 | 100 | 0.5 |
+| Lookup table | 1 | 100 | 1.5 |
+| Screenshoot of the map| 0.5 | 50 | 0.5 |
+| Design intentions | 1 | 100 | 1 |
+| HTML page deployent | 1 | 100 | 0.5 |
 
 *Assume a $100 per hour cost
 
 Estimated by: Yi Zhou
 
-Screenshots are taken
+Overall estimate time is 7 hours while the actual hours used are 7.5 hours. The main difference is the time used to build the google map style as the color settings can be overwritten in the geometry sublayers which result in conflict sometimes. Lookup table and screenshots are created and captured as the final step, summarizing all the design changes to the defauly map style which took longer than estimated. However, the json file and webpage deployment process are less complicated than expectation 
 
-# Background info
+# Background research
 The Mission of the Chinatown Community Development Center is to build community and enhance the quality of life for San Francisco residents. CCDC(Chinatown Community Development Center) is a place-based community development organization serving primarily the Chinatown neighborhood, and also serve other areas including North Beach and the Tenderloin. CCDC is a community development organization with many roles - as neighborhood advocates, organizers and planners, and as developers and managers of affordable housing. Program Teams include Community Planning, Organizing, Civic Engagement, Resident Services, Youth Leadership--all work together to build up communities, envisioning neighborhoods that celebrate empowerment, neighborhood improvement, and positive community change.
 
 # Generate a custom palette
@@ -40,9 +55,11 @@ From this scale, important cities and state names are the most straightforward i
 ![scale1](https://user-images.githubusercontent.com/79752672/227696117-15eb7298-c097-44ea-baad-1926fdef80e7.png)
 Zooming into San Francisco, adjacent cities such as Daly City, San Jose, Berkeley etc are shown: the human-made and landscape environment are differciated by grey and white. As CCDC is developing youth and social housing program for the Asian American population, it's important to hightlight the built environment.  
 ![scale2](https://user-images.githubusercontent.com/79752672/227696115-906e32e3-eac3-4ed0-9732-d081324db15d.png)
-Zooming into the neighborhood scale, 
+Zooming into the neighborhood scale, the street patterns become visible as well as the places of interst and transit station. Colors are aligned in order to match the design of CCDC website, icons of less important features(landscape) are hidden for legibility and clearness.
 ![scale3](https://user-images.githubusercontent.com/79752672/227696516-d802217b-aefd-49da-b233-944ac750be2d.png)
+Going down to the street level, property outlines are visible which are important for CCDC to develop housing/voluntary/youth training programs.
 
+Below is the lookup table that documents the feature type, element type and stylers for all relevant features which help navigate where to make changes. I go beyond the template and add more colors for contrast and gradient in transition between scales.
 | Feature type | Element type | Stylers |
 | --- | --- | --- |
 | All | Labels / Text fill | Color: Japonica(#616161) |
@@ -69,19 +86,20 @@ Zooming into the neighborhood scale,
 | Water | Geometry  / Fill | Color: Whitw(#c9c9c9) |
 | Station | Text  / Fill | Color: Whitw(#9e9e9e) |
 
-add icon
-hide landscape icon
-hide parcel
-go beyond the template for contrast and legibility
-
 # How to deploy this map?
 The client can easily deploy the map style by downloading the json file here: https://github.com/xxxidragons/Zhou_portfolio/blob/bd80a5d27252d9e681681b0f692ddd78a4f80461/CCDC_mapstyle.json 
+1. In the Google Cloud Console, go to the Map Styles page.
 
+2. Click Create style.
 
+3. Under Create your own style, select the Import JSON radio button.
+
+4. Paste your valid JSON styling code into the field.
+If your JSON is invalid, you see a notice in capital letters just below the JSON field.
+If your JSON is valid, you see a preview of the pasted style, and the blue SAVE button is available.
+
+5. Select SAVE.
+
+The style is automatically published, and you are taken to your new style's main page.
 See more details at: https://developers.google.com/maps/documentation/cloud-customization/map-styles#create-new-style 
 
-Create a page that includes the color palette you used, a screenshot of your stylized map, and a summary of your design decisions.  
-You should include an outline of your process from beginning to end, which you'll use to help communicate the steps you took to the organization later.  
-Make sure to check your map at various zoom extents to make sure that the maps are usable and legible, especially at the extents most likely to be used by 
-the site's visitors.   Changing basemap colors can lead to unanticipated conflicts in layers, so make sure to address any issues you run into as best you ca
-n before saving your style.  
