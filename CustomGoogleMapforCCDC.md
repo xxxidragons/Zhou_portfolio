@@ -13,7 +13,7 @@ March 25, 2023
 
 <p align="right">To</p>
 
-<p align="right">[Chinatown Community Development Center](https://www.chinatowncdc.org/)</p>
+<p align="right">Chinatown Community Development Center(https://www.chinatowncdc.org/)</p>
 
 <p align="right">(Main Office) 615 Grant Avenue, San Francisco CA 94108</p>
 
