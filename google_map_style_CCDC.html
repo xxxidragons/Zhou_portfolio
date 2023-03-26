@@ -262,6 +262,22 @@
 // ..and here's the end of JSON from Style Wizard          
         });
       }
+      
+// Here we use a custom KML file created using Google MyMaps...        
+  var src = 'https://raw.githubusercontent.com/xxxidragons/Zhou_portfolio/main/CCDC_office.kml';
+          var kmlLayer = new google.maps.KmlLayer(src, {
+          suppressInfoWindows: true,
+          preserveViewport: false,
+          map: map
+        });
+        kmlLayer.addListener('click', function(event) {
+          var content = event.featureData.infoWindowHtml;
+          var testimonial = document.getElementById('capture');
+          testimonial.innerHTML = content;
+        });
+// End of custom KML file...        
+      }
+      
 // Don't forget your API Key below vv
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2Dvf9uT-80QhVkNGWFMKwEqLCDa09Yrg&callback=initMap"
