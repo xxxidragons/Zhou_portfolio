@@ -30,7 +30,7 @@ March 25, 2023
 | Screenshoot of the map| 0.5 | 50 | 0.5 |
 | Design intentions | 1 | 100 | 1 |
 | HTML page deployent | 1 | 100 | 0.5 |
-
+| Phase 2 to dynamic map | 0 | 200 | 2 |
 *Assume a $100 per hour cost
 
 Estimated by: Yi Zhou
@@ -101,3 +101,6 @@ If your JSON is valid, you see a preview of the pasted style, and the blue SAVE 
 The style is automatically published, and you are taken to your new style's main page.
 See more details at: [https://developers.google.com/maps/documentation/cloud-customization/map-styles#create-new-style](https://developers.google.com/maps/documentation/cloud-customization/map-styles#create-new-style)
 
+
+# Phase 2: Create a dynamic map especially for CCDC
+Click to see the interactive map: [https://xxxidragons.github.io/Zhou_portfolio/googlemapstyleCCDC.html](https://xxxidragons.github.io/Zhou_portfolio/googlemapstyleCCDC.html)
